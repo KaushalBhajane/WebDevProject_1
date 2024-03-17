@@ -1,0 +1,8 @@
+.show:hover + .hide {
+    color: rgb(228, 7, 7);
+    display: block;
+    margin-top: 40px;
+}
+.hide {
+    display: none;
+}

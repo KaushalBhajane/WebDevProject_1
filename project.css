@@ -1,0 +1,327 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.heading-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    padding-top: 0px;
+    margin: 15px;
+    margin-left: 70px;
+    margin-top: 40px;
+    border: none;
+    font-family: 'Onest', sans-serif;
+
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Onest', sans-serif;
+    border: none;
+    margin: 8px;
+}
+
+.heading-para {
+    color: #cecece;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 8px;
+    border: none;
+
+}
+
+.btn-launch {
+    padding: 10px 14px;
+    background-color: #3eb489;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin: 8px;
+}
+
+
+
+.btn-launch:hover {
+    background-color: rgb(41, 123, 93);
+    color: rgb(187, 187, 187);
+}
+
+.second-box {
+    border: none;
+    padding: 10px 0px;
+    margin: 0px 70px auto;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.three-content-box {
+    width: 300px;
+    margin: 40px 0px;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid hsla(0, 0%, 100%, .0784313725490196)
+}
+
+.content-box-text {
+    margin: 5px;
+    border: none;
+    padding: 0px;
+    line-height: 15px;
+}
+
+.logo-div {
+    display: inline;
+    border: none;
+    margin: 20px;
+}
+
+.dollar {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.content-heading {
+    color: #cecece;
+    font-size: 15px;
+}
+
+.third-box {
+    padding: 60px 15px;
+    margin: 30px auto;
+    width: 100%;
+    background-color: #191919;
+
+    border-top: 1px solid #4d4d4e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thirdbox-flex {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5px 0px;
+    font-size: 20px;
+
+}
+
+.three-advantage-box {
+    color: white;
+    margin: 30px 30px auto;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 5px;
+    width: 280px;
+}
+
+.advantage-logo {
+    margin-right: 10px;
+    border: none;
+}
+
+.advantage-box-heading {
+    color: white;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.advantage-content {
+    margin: 0px;
+    color: #cecece;
+    font-size: 18px;
+    font-weight: light;
+}
+
+.second-heading {
+    color: white;
+    border: none;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.logo-1 {
+    width: 40px;
+    height: 40px;
+}
+
+.zomi-heading {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    border: none;
+}
+
+.logo-heading {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+
+}
+
+.zomi-logo {
+    border: none;
+    margin-right: 5px;
+}
+
+.fourth-box {
+    width: 100%;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 70px auto;
+    
+}
+
+.twobuy-box {
+    width: 400px;
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 8px;
+    margin: 20px 20px auto;
+    padding: 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #171717;
+}
+
+.buy-boxpara {
+    color: #fff;
+    font-weight: lighter;
+}
+
+.ethereum-data {
+    color: #cecece;
+    font-size: 12px;
+    border: none;
+}
+
+.buy-read-buttons {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
+.buy-btn {
+    background-color: #3eb489;
+    padding: 6px 12px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-right: 6px;
+}
+
+.buy-btn:hover {
+
+    background-color: rgb(41, 123, 93);
+    color: rgb(187, 187, 187);
+
+}
+
+.read-more-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-left: 6px;
+}
+.read-more-btn:hover {
+    background-color: #2e2e2e;
+}
+.support-block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 0px auto;
+    box-sizing: border-box;
+    
+    
+}
+.new-logo {
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+.brand-head {
+    border: none;
+    color: #e6e6ea;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+.heading-flex {
+    border:none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.media-section {
+    width: 100%;
+    display: flex;
+    border: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px auto;
+    
+}
+.media-icon {
+    border: none;
+    margin: 5px 20px;
+}
+li {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0px 15px auto;
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+}
+a:hover {
+    color: white;
+}
+li a {
+    display: block;
+    color: #e6e6ea;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Onest', sans-serif;
+    font-size: 13px;
+
+}
